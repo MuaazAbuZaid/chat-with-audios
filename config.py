@@ -23,7 +23,7 @@ OLLAMA_MODEL         = "qwen2.5:3b"      # any model pulled via `ollama pull <na
 OLLAMA_EMBED_MODEL = "nomic-embed-text"
 
 # ── Text-to-Speech (optional pyttsx3) ───────────────────────
-TTS_ENABLED          = False         # flip to True to enable spoken answers
+TTS_ENABLED          = True         # flip to True to enable spoken answers
 TTS_RATE             = 175           # words per minute
 TTS_VOLUME           = 0.9           # 0.0 – 1.0
 
